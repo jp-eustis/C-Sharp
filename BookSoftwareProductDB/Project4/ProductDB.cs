@@ -9,7 +9,7 @@ namespace Project4
 {
     internal class ProductDB
     {
-        private const string dir = @"C:\Users\gabus\OneDrive\Desktop\COS141\Project4\";
+        private const string dir = @"*Path of txt file*";
         private const string path = dir + "Project4Products.txt";
 
         public static List<Product> GetProducts()
