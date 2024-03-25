@@ -1,0 +1,25 @@
+﻿<Window x:Class="Project4.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project4"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <TextBlock Margin="81,34,637,351">Code:</TextBlock>
+        <TextBlock Margin="81,134,637,241">Description:</TextBlock>
+        <TextBlock Margin="81,241,637,141" Text="Price:"/>
+        <Label x:Name ="label4" Content="Label" Margin="81,341,637,41"/>
+
+        <Button x:Name="save" Margin="430,129,158,244" Click="save_Clicked">Save</Button>
+        <Button x:Name="cancel" Margin="430,236,158,136" Click="cancel_Clicked">Cancel</Button>
+        <RadioButton x:Name="Book" Margin="430,53,270,364" Click="book_Clicked">Book</RadioButton>
+        <RadioButton x:Name="Software" Margin="517,51,206,364" Click="software_Clicked">Software</RadioButton>
+
+        <TextBox x:Name="CodeText" Margin="161,36,422,351"/>
+        <TextBox x:Name="DescripText" Margin="161,136,422,251"/>
+        <TextBox x:Name="PriceText" Margin="161,241,422,146"/>
+        <TextBox x:Name="RadioText" Margin="161,341,422,46"/>
+    </Grid>
+</Window>
